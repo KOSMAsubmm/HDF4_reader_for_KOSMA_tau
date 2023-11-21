@@ -31,3 +31,6 @@ plot the diffusion properties of the species sp. different key available are:
 ### - K : plot thermal, molecular and turbulent diffusion coefficients of the species
 ### - V : plot thermal, molecular and turbulent diffusion velocities of the species
 ### - dr : plot total, thermal, molecular and turbulent diffusion rates of the species. Both formation and destruction rates are indicated using different markers.
+
+
+For any suggestions, complains or updates, write to: aleenababy839@gmail.com or baby@ph1.uni-koeln.de
