@@ -1,0 +1,113 @@
+
+INPUT CARDS FOR PROGRAM OUTCONTROL
+(REMOVE FIRST TWO CHARACTERS TO ACTIVATE!)
+
+# DENSITY  ELECTR            801
+# DENSITY  H                 802
+# DENSITY  H2                803
+# DENSITY  H+                804
+# DENSITY  H2+               805
+# DENSITY  H3+               806
+# DENSITY  HE+               807
+# DENSITY  HE                808
+# DENSITY  O+                809
+# DENSITY  O                 810
+# DENSITY  C+                811
+# DENSITY  C                 812
+# DENSITY  13C+              813
+# DENSITY  13C               814
+# DENSITY  OH+               815
+# DENSITY  OH                816
+# DENSITY  O2                817
+# DENSITY  CO+               818
+# DENSITY  CO                819
+# DENSITY  CH+               820
+# DENSITY  CH                821
+# DENSITY  13CO+             822
+# DENSITY  13CO              823
+# DENSITY  13CH+             824
+# DENSITY  13CH              825
+# DENSITY  HCO+              826
+# DENSITY  H2O+              827
+# DENSITY  H2O               828
+# DENSITY  H13CO+            829
+# DENSITY  CH2+              830
+# DENSITY  13CH2+            831
+# DENSITY  H3O+              832
+# DENSITY  CH2               833
+# DENSITY  CH3+              834
+# DENSITY  SO2               835
+# DENSITY  SO+               836
+# DENSITY  SO                837
+# DENSITY  S+                838
+# DENSITY  S                 839
+# DENSITY  OCS+              840
+# DENSITY  OCS               841
+# DENSITY  HS+               842
+# DENSITY  HS                843
+# DENSITY  HCS+              844
+# DENSITY  H2S+              845
+# DENSITY  CS+               846
+# DENSITY  CS                847
+# DENSITY  18O+              848
+# DENSITY  18O               849
+# DENSITY  O18O              850
+# DENSITY  H318O+            851
+# DENSITY  H218O+            852
+# DENSITY  H218O             853
+# DENSITY  18OH+             854
+# DENSITY  18OH              855
+# DENSITY  HC18O+            856
+# DENSITY  H13C18O+          857
+# DENSITY  C18O+             858
+# DENSITY  C18O              859
+# DENSITY  13C18O+           860
+# DENSITY  13C18O            861
+
+FOLLOWING LINES ARE FOR INFORMATION ONLY
+USE DENSITY CARD WITH SINGLE NUMBER !!
+
+#   SPECIES             INDEX
+#   H2                    1
+#   H                     2
+#   H2 VIB. LEVELS        3 -  17
+#   CO ROT. LEVELS       18 -  67
+#   13CO ROT. LEVELS     68 - 117
+#   C FS LEVELS         118 - 120
+#   13C FS LEVELS       121 - 123
+#   O FS LEVELS         124 - 126
+#   C+ FS LEVELS        127 - 128
+#   13C+ FS LEVELS      129 - 130
+#   SI+ FS LEVELS       131 - 132
+#   OH ROT. LEVELS      133 - 148
+#   H2O ROT. LEVELS     171 - 201
+#   H2OP ROT. LEVELS    263 - 278
+# DENSITY               XXX
+^^^^^^^               ^^^ (FORMAT)
+
+#  HEATING AND COOLING PROCESSES
+#  
+# HEATING    1  H2vd  vibrational deexcitation (following FUV pumping)
+# HEATING    2  H2dis photodissociation by FUV photons
+# HEATING    3  H2for formation heating (following FUV dissociation)
+# COOLING    4  O(63mu) fine structure excitation (63mu)
+# COOLING    5  O(44mu) fine structure excitation (44mu)
+# COOLING    6  O(146mu) fine structure excitation (146mu)
+# HEATING    7  CR-heat  cosmic ray heating
+# HEATING    8  G-heat  grain photoelectric heating
+# COOLING    9  12CO rotational excitation
+# COOLING   10  12C+(158mu) fine structure excitation (158mu)
+# COOLING   11  12C(610mu) fine structure excitation (610mu)
+# COOLING   12  12C(230mu) fine structure excitation (230mu)
+# COOLING   13  12C(370mu) fine structure excitation (370mu)
+# COOLING   14  Si+(35mu) fine structure excitation (35mu)
+# COOLING   15  13CO rotational excitation
+# COOLING   16  Lyman Alpha cooling
+# COOLING   17  H2O rotational excitation (approximation)
+# COOLING   18  gas-G  gas grain cooling
+# COOLING   19  OHn rotational excitation (n level calc.)
+# COOLING   20  OI metastable optical excitation (6300 Angstroem)
+# COOLING   21  H2 kinetic dissociation cooling
+# HEATING   22  C ionisation heating    
+# HEATING   23  Chemical heating/cooling
+
