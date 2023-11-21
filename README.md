@@ -2,14 +2,15 @@
 
 This routine is used to analyse the hdf files of the kosma- tau PDR model.
 Kosma-tau PDR model is used to understand the chemistry and physics of the molecular cloud.
-The follwoing modules are needed:
-    - numpy
-    - pandas
-    - matplotlib
-    - datetime
-    - os
-    - pyhdf
-    - h5py
+### Pre-requisites:
+    - `numpy`
+    - `pandas`
+    - `matplotlib`
+    - `datetime`
+    - `os`
+    - `pyhdf`
+    - `h5py`
+
 The main functions are:
     - read_hdf(f): to reaf the hdf file 'f' and return a pandas dataframe (df), heating and cooling rates (HC_rates), and level population details (rad_field).
         dataframe df will look like
