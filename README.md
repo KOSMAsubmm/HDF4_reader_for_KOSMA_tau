@@ -28,7 +28,5 @@ plot the abundance profile of the species sp, returns the figure
 ## `plot_diffusion_properties(df, key ,sp)`
 plot the diffusion properties of the species sp. different key available are:
     - K : plot thermal, molecular and turbulent diffusion coefficients of the species
-
     - V : plot thermal, molecular and turbulent diffusion velocities of the species
-            
     - dr : plot total, thermal, molecular and turbulent diffusion rates of the species. Both formation and destruction rates are indicated using different markers.
