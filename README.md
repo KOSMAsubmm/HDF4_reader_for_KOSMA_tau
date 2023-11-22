@@ -1,4 +1,4 @@
-# HDF4_reader_for_KOSMA_tau
+# HDF4 reader for KOSMA tau
 
 This routine is used to analyse the hdf files of the kosma- tau PDR model.
 Kosma-tau PDR model is used to understand the chemistry and physics of the molecular cloud.
